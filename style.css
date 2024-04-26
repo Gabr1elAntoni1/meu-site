@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(95deg, rgba(0, 0, 0, 0.596), rgb(110, 110, 110), white);
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+}
+.icone{
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
+.icone:hover{
+    box-shadow: 5px 5px 5px red;
+}
+.icone1{
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
+.icone1:hover{
+    box-shadow: 5px 5px 5px rgb(102, 255, 0);
+}
+.icone2{
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
+.icone2:hover{
+    box-shadow: 5px 5px 5px rgb(0, 132, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a{
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    padding: 40px;
+}
+a:hover{
+    font-size: 45px;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    padding-left: 20px;
+}
+h2{
+    font-size: 50px;
+    background: linear-gradient(45deg, black, red);
+    background-clip: text;
+    color: transparent;
+}
+
+p{
+    color: white;
+    font-size: 25px;
+    padding-left: 20px;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 120px;
+    height: 100px;
+}
+
+
+
