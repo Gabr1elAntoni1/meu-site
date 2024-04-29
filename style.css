@@ -39,27 +39,6 @@ a:hover{
 .icone2:hover{
     box-shadow: 5px 5px 5px rgb(0, 132, 255);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 a{
     font-size: 40px;
     text-decoration: none;
@@ -79,21 +58,33 @@ h2{
     background: linear-gradient(45deg, black, red);
     background-clip: text;
     color: transparent;
+    padding-left: 300px;
 }
-
-p{
+.formhab{
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     padding-left: 20px;
 }
-main{
+.content{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
-img{
+.textcentral{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+aside{
+    margin-top: -200px;
+}
+.headerlogo{
     width: 120px;
     height: 100px;
 }
-
+.principal{
+    width: 500px;
+}
 
 
