@@ -7,8 +7,8 @@ body{
 }
 header{
     display: flex;
-    justify-content: space-around;
-    padding: 20px;
+    justify-content: space-between;
+    padding: 10px;
     align-items: center;
 }
 a:hover{
@@ -16,37 +16,37 @@ a:hover{
     color: rgb(255, 0, 0);
 }
 .icone{
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     border-radius: 5px;
 }
 .icone:hover{
     box-shadow: 5px 5px 5px red;
 }
 .icone1{
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     border-radius: 5px;
 }
 .icone1:hover{
     box-shadow: 5px 5px 5px rgb(102, 255, 0);
 }
 .icone2{
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     border-radius: 5px;
 }
 .icone2:hover{
     box-shadow: 5px 5px 5px rgb(0, 132, 255);
 }
 a{
-    font-size: 40px;
+    font-size: 30px;
     text-decoration: none;
     color: white;
-    padding: 40px;
+    padding: 20px;
 }
 a:hover{
-    font-size: 45px;
+    font-size: 35px;
 }
 h1{
     color: white;
@@ -77,14 +77,14 @@ h2{
     margin-top: 5rem;
 }
 aside{
-    margin-top: -200px;
+    margin-top: -230px;
 }
 .headerlogo{
     width: 120px;
     height: 100px;
 }
 .principal{
-    width: 500px;
+    width: 400px;
 }
 
 
