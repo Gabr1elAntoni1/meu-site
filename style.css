@@ -6,15 +6,17 @@ body{
     background: linear-gradient(95deg, rgba(0, 0, 0, 0.596), rgb(110, 110, 110), white);
 }
 header{
-    
+    background-color: black;
     display: flex;
     justify-content: space-between;
     padding: 10px;
     align-items: center;
 }
 a:hover{
-    text-decoration: underline;
-    color: rgb(255, 0, 0);
+    text-decoration: underline solid 2px white;
+    background: linear-gradient(45deg, rgb(124, 123, 123), rgb(0, 56, 238));
+    background-clip: text;
+    color: transparent;
 }
 .icone{
     height: 30px;
@@ -55,11 +57,12 @@ h1{
     padding-left: 20px;
 }
 h2{
-    font-size: 50px;
-    background: linear-gradient(45deg, rgb(204, 40, 75), rgb(38, 84, 235));
+    font-size: 55px;
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(38, 84, 235));
     background-clip: text;
     color: transparent;
     padding-left: 300px;
+    
 }
 .formhab{
     color: white;
@@ -81,8 +84,9 @@ aside{
     margin-top: -230px;
 }
 .headerlogo{
-    width: 120px;
+    width: 100px;
     height: 100px;
+    padding-left: 30px;
 }
 .principal{
     width: 400px;
