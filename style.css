@@ -3,7 +3,8 @@
     padding: 0;
     font-family: sans-serif;
 }
-html {
+
+html{
     scroll-behavior: smooth;
     scroll-padding-top: 5rem;
 }
@@ -12,6 +13,7 @@ body{
     background-color: #ffffff;
     height: 280rem;
 }
+
 header{
     background-color: black;
     display: flex;
@@ -19,47 +21,57 @@ header{
     padding: 30px;
     align-items: center;
 }
+
 a{
     font-size: 30px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     margin: 40px;
 }
+
 a:hover{
     text-decoration: underline solid 2px white;
     background: linear-gradient(45deg, rgb(0, 110, 255), rgb(255, 255, 255));
     background-clip: text;
     color: transparent;
 }
+
 .icone{
     height: 30px;
     width: 30px;
     border-radius: 5px;
 }
+
 .icone:hover{
     box-shadow: 5px 5px 5px red;
 }
+
 .icone1{
     height: 30px;
     width: 30px;
     border-radius: 5px;
 }
+
 .icone1:hover{
     box-shadow: 5px 5px 5px rgb(102, 255, 0);
 }
+
 .icone2{
     height: 30px;
     width: 30px;
     border-radius: 5px;
 }
+
 .icone2:hover{
     box-shadow: 5px 5px 5px rgb(0, 132, 255);
 }
+
 h1{
     color: rgb(0, 0, 0);
     font-size: 40px;
     padding-left: 20px;
 }
+
 h2{
     font-size: 55px;
     font-weight: 700;
@@ -68,19 +80,19 @@ h2{
     color: transparent;
     animation: crescer 3s infinite;
 }
+
 h3{
     background: linear-gradient(45deg, rgb(0, 0, 0), rgb(38, 84, 235));
     background-clip: text;
     color: transparent;
     width: 350px;
     letter-spacing: 1.5px;
-    font-size: 30px;
-    
+    font-size: 30px; 
 }
-h4{
-    padding-right: 750px;
-    font-size: 40px;
 
+h4{
+    padding-right: 800px;
+    font-size: 40px;
 }
 
 .formhab{
@@ -88,19 +100,23 @@ h4{
     font-size: 20px;
     display: flex;
 }
+
 .content{
     margin-top: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .main-txt-all {
     display: flex;
     flex-direction: column;
 }
+
 .main-txt-all > h2 {
     margin-bottom: 6rem;
 }
+
 .textcentral{
     flex-direction: column;
     display: flex;
@@ -108,29 +124,31 @@ h4{
     text-align: center;
     padding: 5rem;
 }
+
 .division {
     height: 3px;
     width: 95%;  
     margin: 30px;
     background: rgba(0, 0, 0, 0.144);
 }
+
 .principal{
     width: 500px;
 }
-hr{
-    box-shadow: 5px 5px 5px black;
-}
+
 .cards{
     display: flex;
     flex-direction: row;
     gap: 8rem;
     margin-top: 2.5rem;
 }
+
 b{
     background: linear-gradient(45deg, rgb(0, 110, 255), rgb(255, 255, 255));
     background-clip: text;
     color: transparent;
 }
+
 .arquivos{
     font-size: 20px;
     padding: 20px;
@@ -142,9 +160,11 @@ b{
     transition: all 0.3s;
     box-shadow: 5px 10px 20px black;
 }
-.arquivos:hover {
+
+.arquivos:hover{
     transform: scale(1.05);
 }
+
 .container{
     margin-bottom: 3rem;
     display: flex;
@@ -155,18 +175,21 @@ b{
     border: solid rgb(255, 255, 255);
     box-shadow: 5px 10px 20px black;
 }
+
 .item1{
     height: 300px;
     border-radius: 47px;
     box-shadow: 3px 3px 3px 3px white;
 }
-.card-wrapper {
+
+.card-wrapper{
     margin-top: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .container-title{
     background: linear-gradient(45deg, rgb(0, 110, 255), rgb(255, 255, 255));
     background-clip: text;
@@ -175,33 +198,31 @@ b{
     margin-top: 40PX;
     padding: 30px;
 }
+
 .container-txt{
     color: rgb(255, 255, 255);
 }
+
 .experience{
     display: flex;
     flex-direction: column;
 }
-.card-experience-wrapper {
+
+.card-experience-wrapper{
     margin-top: 5rem;
     display: flex;
     gap: 3rem;
-    background: rgb(255, 255, 255);
-    
+    background: rgb(255, 255, 255); 
     padding: 2rem;
-    
     height: 300px;
-    
-    
 }
 
-.card-experience-wrapper1 {
+.card-experience-wrapper1{
     margin-top: 5rem;
     display: flex;
     gap: 3rem;
     background: rgb(255, 255, 255);
     padding: 2rem;
-    
     height: 300px;
 }
 
@@ -209,11 +230,9 @@ b{
     transform: scale(1.05);
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.151) ;
     transition: 0.3s;
-
-
-
 }
-.card-experience {
+
+.card-experience{
     position: relative;
     padding: 2.5rem;
     height: 200px;
@@ -224,7 +243,8 @@ b{
     border-right: 1px solid gray;
     background: rgb(255, 255, 255);
 }
-.card-number > span {
+
+.card-number > span{
     z-index: 1;
     position: absolute;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -237,10 +257,12 @@ b{
     font-size: 30px;
     text-align: center;
 }
-#card3 {
+
+#card3{
     border: none;
 }
-.card-txt {
+
+.card-txt{
     margin-top: 1.5rem;
     z-index: 0;
     position: relative;
@@ -249,20 +271,22 @@ b{
     gap: 15px;
 }
 
-
-.card-txt > span {
+.card-txt > span{
     font-weight: 700;
 }
+
 .card-projeto-wrapper{
     display: flex;
     justify-content: space-around;
     margin-top: 2rem;
 }
+
 .card-projeto{
     height: 200px;
     width: 300px;
     padding-right: 400px;
 }
+
 .card-txt2{
     background-color: rgb(0, 0, 0);
     color: white;
@@ -278,6 +302,7 @@ b{
     border-radius: 50px;
     box-shadow: 5px 10px 20px black;
 }
+
 .carreira{
     display: flex;
     flex-direction: column;
@@ -287,7 +312,6 @@ b{
 }
 
 .card-txt1{
-    
     margin-top: 1.5rem;
     z-index: 0;
     position: relative;
@@ -300,11 +324,11 @@ b{
     background: linear-gradient(45deg, rgb(0, 110, 255), rgb(0, 0, 0));
     background-clip: text;
     color: transparent;
-
 }
 .img-icone{
     width: 55px;
 }
+
 .card-icone > span {
     position: absolute;
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
@@ -319,8 +343,8 @@ b{
 
 strong{
     font-size: 25px;
-    
 }
+
 .card-experience1 {
     position: relative;
     padding: 2.5rem;
@@ -335,9 +359,8 @@ strong{
 
 .title-section{
     text-align: center;
-    
-    
 }
+
 .txt-section{
     width: 70rem;
     display: flex;
@@ -347,13 +370,11 @@ strong{
     border-radius: 10px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.743);
     background: linear-gradient(to right, rgb(128, 128, 128), black);
-    
 }
 
 .img-section{
     width: 60%;
     height: 30%;
-    
 }
 
 .login{
@@ -361,13 +382,14 @@ strong{
     width: 400px; 
     height: 500px;
     /* background: url(Imagem/baixados.jpg); */
-    color: white; 
+    /* color: rgb(241, 14, 14); */
     border-radius: 20px;
     box-shadow: 0px 0px 20px rgba(0,0,0,0.75);
     background-size: cover;
     background-position: center;
     overflow: hidden;
 }
+
 form{
     display: block;
     box-sizing: border-box;
@@ -379,12 +401,14 @@ form{
     display: flex;
     gap: 5px;
 }
-h1{
+
+.cadastro{
     font-weight: normal;
-    font-size: 24px;
+    font-size: 28px;
     text-shadow: 0px 0px 2px rgba(0,0,0,0.5);
     margin-bottom: 60px;
 }
+
 label{
     color: rgba(255, 255, 255, 0.8);
     text-transform: uppercase;
@@ -392,16 +416,18 @@ label{
     letter-spacing: 2px;
     padding-left: 10px;
 }
+
 input{
-    background: rgba(253, 251, 251, 0.3);
+    background: rgba(255, 255, 255, 0.384);
     height: 40px;
     line-height: 40px;
     border-radius: 20px;
     padding: 0px 20px;
     border: none;
     margin-bottom: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
+
 button{
     background: linear-gradient(45deg, rgb(0, 110, 255), rgb(0, 0, 0));
     height: 40px;
