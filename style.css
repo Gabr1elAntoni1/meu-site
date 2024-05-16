@@ -11,7 +11,7 @@ html{
 
 body{
     background-color: #ffffff;
-    height: 280rem;
+    height: 305rem;
 }
 
 header{
@@ -44,6 +44,8 @@ a:hover{
 
 .icone:hover{
     box-shadow: 5px 5px 5px red;
+    transition: 0.2s;
+    border-radius: 25px;
 }
 
 .icone1{
@@ -54,6 +56,8 @@ a:hover{
 
 .icone1:hover{
     box-shadow: 5px 5px 5px rgb(102, 255, 0);
+    transition: 0.2s;
+    border-radius: 25px;
 }
 
 .icone2{
@@ -64,6 +68,8 @@ a:hover{
 
 .icone2:hover{
     box-shadow: 5px 5px 5px rgb(0, 132, 255);
+    transition: 0.2s;
+    border-radius: 25px;
 }
 
 h1{
@@ -228,7 +234,7 @@ b{
 
 .card-experience-wrapper1:hover{
     transform: scale(1.05);
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.151) ;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.349) ;
     transition: 0.3s;
 }
 
@@ -379,12 +385,11 @@ strong{
 
 .login{
     border: 1px solid black;
-    width: 400px; 
+    width: 750px; 
     height: 500px;
-    /* background: url(Imagem/baixados.jpg); */
-    /* color: rgb(241, 14, 14); */
+    background-color: black;
     border-radius: 20px;
-    box-shadow: 0px 0px 20px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -392,6 +397,7 @@ strong{
 
 form{
     display: block;
+
     box-sizing: border-box;
     padding: 40px;
     width: 100%;
@@ -403,12 +409,20 @@ form{
 }
 
 .cadastro{
-    font-weight: normal;
+    font-weight: normal;                                                                 ;
     font-size: 28px;
+    text-align: center;
+    background: linear-gradient(45deg, rgb(0, 110, 255), rgb(0, 0, 0));
     text-shadow: 0px 0px 2px rgba(0,0,0,0.5);
     margin-bottom: 60px;
+    border-radius: 25px;
+    color: white;
 }
 
+.login:hover{
+    box-shadow: 0px 0px 20px rgba(0, 0, 255, 0.89);
+    transition: 0.3s;
+}   
 label{
     color: rgba(255, 255, 255, 0.8);
     text-transform: uppercase;
@@ -418,14 +432,14 @@ label{
 }
 
 input{
-    background: rgba(255, 255, 255, 0.384);
+    background: rgba(26, 26, 153, 0.273);
     height: 40px;
     line-height: 40px;
     border-radius: 20px;
     padding: 0px 20px;
     border: none;
     margin-bottom: 20px;
-    color: rgb(0, 0, 0);
+    color: white;
 }
 
 button{
@@ -433,16 +447,15 @@ button{
     height: 40px;
     line-height: 40px;
     border-radius: 40px;
+    text-align: center;
     border: none;
     margin: 10px 0px;
-    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
     color: rgb(255, 255, 255);
 }
 
 
-
-
-
+/* 
 @keyframes crescer{
     0%{
         transform: scale(1.0);
@@ -453,4 +466,12 @@ button{
     100%{
         transform: scale(1.0);
     }
-}
+} */
+.container-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+} 
